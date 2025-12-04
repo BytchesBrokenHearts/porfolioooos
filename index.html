@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fragrant Flower Blooms With Dignity — Portfolio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Noto+Serif+JP:wght@300;500;700&display=swap');
+
+    :root {
+      --bg: #faf6f7;
+      --card: #ffffffcc;
+      --accent: #d39bb6;
+      --accent-dark: #b27898;
+      --text: #3d2e35;
+      --soft-pink: #f3dce6;
+      --soft-line: #e8c8d8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Noto Serif JP', serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--soft-pink);
+      border-bottom: 1px solid var(--soft-line);
+      backdrop-filter: blur(6px);
+    }
+
+    header h1 {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--accent-dark);
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 600;
+      color: var(--accent-dark);
+      transition: 0.2s;
+    }
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    .hero {
+      padding: 100px 40px;
+      text-align: center;
+      background: url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1400&q=80');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-shadow: 0px 2px 8px #00000055;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    section {
+      padding: 70px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--soft-line);
+      padding: 30px;
+      border-radius: 20px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 12px #00000010;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .project {
+      background: var(--card);
+      padding: 20px;
+      border: 1px solid var(--soft-line);
+      border-radius: 20px;
+      box-shadow: 0 3px 10px #00000010;
+      transition: 0.25s;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px #00000025;
+    }
+    .project img {
+      width: 100%;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      margin-top: 60px;
+      background: var(--soft-pink);
+      border-top: 1px solid var(--soft-line);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fragrant Flower Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Fragrant Flower Blooms With Dignity</h2>
+    <p>An elegant portfolio inspired by gentle blossoms, soft light, and quiet strength.</p>
+  </section>
+
+  <section id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        I am a creator inspired by "The Fragrant Flower Blooms With Dignity" aesthetic — blending elegance,
+        soft romance, and strong emotional presence. My work focuses on beauty, storytelling,
+        and atmospheric design.
+      </p>
+    </div>
+  </section>
+
+  <section id="interests">
+    <div class="card">
+      <h2>What I Like</h2>
+      <p>I love anime — the stories, the art style, the emotions, and the atmosphere they create. Anime inspires my creativity and influences my aesthetic, especially the elegant and emotional style seen in "The Fragrant Flower Blooms With Dignity."</p>
+      <ul style="margin-top:15px; padding-left:20px; line-height:1.8;">
+        <li>Romantic and emotional anime</li>
+        <li>Beautiful art styles and soft color palettes</li>
+        <li>Atmospheric stories with deep feelings</li>
+        <li>Slice-of-life and character-driven narratives</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact</h2>
+      <p>You can reach me at:</p>
+      <p><strong>Email:</strong> Nninjin47@gmail.com</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Fragrant Flower Portfolio — Designed with Dignity
+  </footer>
+</body>
+</html>
